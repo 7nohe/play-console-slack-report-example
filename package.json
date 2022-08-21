@@ -1,0 +1,26 @@
+{
+  "name": "play-console-slack-report-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "notify": "vite-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7nohe/play-console-slack-report-example.git"
+  },
+  "keywords": [],
+  "author": "Daiki Urata(@7nohe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7nohe/play-console-slack-report-example/issues"
+  },
+  "homepage": "https://github.com/7nohe/play-console-slack-report-example#readme",
+  "dependencies": {
+    "@7nohe/play-console-report-client": "^0.1.1",
+    "@slack/web-api": "^6.7.2",
+    "dayjs": "^1.11.5",
+    "vite-node": "^0.22.1"
+  }
+}
